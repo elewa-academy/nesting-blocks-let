@@ -15,8 +15,8 @@ ___
 ### The Code
 
 This example illustrates how JS treats nested scopes and __let__ variables:  
-* The variables are all arrays, at each point the arrays will indicate in which scope their variable is active.  
-* The console.log's will indicate how JavaScript is dealing with scopes in the background.
+* The variables all point to arrays. The values stored in each array indicate in which scope that variable is currently visible.  
+* The console.log's will indicate how JavaScript is managing block scopes behind the scenes.
 
 ```js
 let vari_0 = ['global'];
