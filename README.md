@@ -4,6 +4,12 @@ It's possible to make scopes inside of scopes.  This may sound intimidating and 
 
 From JavaScirpt's perspective, there is no difference between a nested block and an un-nested block.  Hopefully this example will help make that clear.
 
+__Source Code vs. Runtime__
+Another concept this example clarifies is the difference between _source code_ and _runtime_: 
+* In the _source code_ (the JS you see printed on the screen), blocks 1 & 2 always exist.  There will always be "let var_2 = [];" displayed on the screen no matter which line of code is being executed.
+* _Runtime state_ is dynamic, it changes depending on what line is being executed and what has happened before.  "vari_2" only exists in memory for 4 steps of execution (lines 6, 8, 9, 10).
+
+
 
 ### Index:
 * [The Code](#the-code)
